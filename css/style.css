@@ -135,7 +135,7 @@ main {
   margin-top: 40px;
   -moz-column-gap: 30px;
        column-gap: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .partners .partner {
