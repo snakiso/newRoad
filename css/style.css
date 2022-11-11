@@ -15,7 +15,7 @@ main {
   background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
