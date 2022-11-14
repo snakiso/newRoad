@@ -20,8 +20,18 @@ main {
   flex-direction: column;
 }
 
+.bg-2 {
+  background-image: url("../img/bg-2.png");
+  background-size: cover;
+  background-position: bottom left;
+}
+
 .padding {
   padding-left: 18%;
+}
+
+.padding-2 {
+  padding-left: 24%;
 }
 
 .logo {
@@ -47,6 +57,13 @@ main {
 .title h1 span {
   color: #29A6DE;
   padding-right: 10px;
+}
+
+.subtitle {
+  color: #29A6DE;
+  padding-left: 24%;
+  max-width: 440px;
+  font-size: 22px;
 }
 
 @font-face {
@@ -147,6 +164,22 @@ main {
   max-width: 70px;
 }
 
+.archive {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 150px;
+}
+
+.archive a {
+  font-size: 18px;
+  max-width: 310px;
+  padding-bottom: 40px;
+}
+
+.archive span {
+  display: block;
+}
+
 @media (min-width: 501px) and (max-width: 1259px) {
   .title h2 {
     font-size: 30px;
@@ -162,7 +195,7 @@ main {
   }
 
   .buttons-block .button {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .buttons-block .button:nth-child(1) {
@@ -190,6 +223,11 @@ main {
   }
 
   .padding {
+    padding-right: 20px;
+  }
+
+  .padding-2 {
+    padding-left: 31.3%;
     padding-right: 20px;
   }
 }
@@ -257,16 +295,25 @@ main {
     padding-right: 20px;
     padding-left: 20px;
   }
-}
 
-@media (min-width: 1261px) and (max-width: 1879px) {
-  main {
-    background-size: 40%;
+  .padding-2 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
-@media (min-height: 950px){
-  main{
+@media (min-width: 1261px) and (max-width: 1899px) {
+  main {
+    background-size: 40%;
+  }
+
+  .padding-2 {
+    padding-left: 26.3%;
+  }
+}
+
+@media (min-height: 950px) {
+  main {
     justify-content: space-evenly;
   }
 }
